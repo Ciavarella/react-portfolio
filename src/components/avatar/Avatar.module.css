@@ -1,0 +1,27 @@
+.avatarContainer {
+  display: flex;
+  margin-top: 10rem;
+  position: relative;
+  justify-content: center;
+}
+
+.avatar {
+  top: -50rem;
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  border-radius: 50%;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-name: fromTop;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fromTop {
+  0% {
+    top: -30rem;
+  }
+  100% {
+    top: 0;
+  }
+}
