@@ -9,9 +9,6 @@ function App() {
       <header className="App-header">
         <Banner />
       </header>
-        <div>
-          <p>some other comp</p>
-        </div>
     </div>
   );
 }

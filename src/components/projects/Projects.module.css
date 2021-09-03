@@ -1,0 +1,8 @@
+.projectsContainer {
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  margin-bottom: 7rem;
+  justify-content: space-around;
+}

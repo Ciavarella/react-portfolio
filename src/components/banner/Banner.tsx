@@ -1,6 +1,7 @@
 // import React from 'react';
 import { Avatar } from '../avatar/Avatar';
 import { Quotes } from '../quotes/Quotes';
+import Projects from '../projects/Projects';
 import styles from './Banner.module.css';
 
 const text1 = "Some text here bla lorem ipsum and some other stuff";
@@ -21,6 +22,7 @@ const Banner = () => {
           <Quotes text={text2} />
         </div>
       </div>
+      <Projects />
     </div>
   );
 };
