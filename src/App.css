@@ -1,17 +1,18 @@
 .App {
-  text-align: center;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
 }
 
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
 }
 
 .App-header {
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  min-height: 100vh;
   align-items: center;
+  flex-direction: column;
+  background-color: black;
   font-size: calc(10px + 2vmin);
 }
 
