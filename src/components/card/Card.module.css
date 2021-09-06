@@ -1,6 +1,7 @@
 .cardContainer {
   width: 15rem;
   height: 15rem;
+  opacity: 0.9;
   display: flex;
   border-radius: 2rem;
   align-items: center;
@@ -8,3 +9,24 @@
   justify-content: center;
   background-color: lightgrey;
 }
+
+.cardContainer:hover {
+  opacity: 0.6;
+}
+
+.cardContainer:hover .imgText {
+  display: block;
+}
+
+.cardContainer:hover .img {
+  display: none;
+}
+
+.img {
+  max-width: 10rem;
+}
+
+.imgText {
+  display: none;
+}
+
