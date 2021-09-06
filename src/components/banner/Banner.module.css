@@ -8,7 +8,8 @@
 .wrapper {
   display: flex;
   position: relative;
-  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
 
 .slideLeft {
@@ -29,6 +30,26 @@
   position: absolute;
   animation: slideRight 2s forwards;
   animation-delay: 2s;
+}
+
+.bottom {
+  visibility: hidden;
+  width: 50%;
+  font-size: 14px;
+  margin-top: 13rem;
+  animation: fadeIn 3s forwards;
+  animation-delay: 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 @keyframes fromLeft {

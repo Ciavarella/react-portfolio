@@ -1,9 +1,12 @@
 import styles from './Assignments.module.css';
+import Gt from '../gt/Gt';
+import Mpm from '../mpm/Mpm';
 
-const Assignments = () => {
+const Assignments = (): JSX.Element => {
   return (
     <div className={styles.assignmentContainer}>
-      <h1>Hello</h1>
+      <Mpm />
+      <Gt />
     </div>
   )
 }

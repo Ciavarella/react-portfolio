@@ -1,20 +1,25 @@
 .avatarContainer {
+  top: -50rem;
   display: flex;
   margin-top: 5rem;
   position: relative;
-  justify-content: center;
-}
-
-.avatar {
-  top: -50rem;
-  width: 10rem;
-  height: 10rem;
   position: absolute;
   border-radius: 50%;
   animation-delay: 1s;
+  align-items: center;
+  flex-direction: column;
   animation-duration: 2s;
   animation-name: fromTop;
+  justify-content: center;
   animation-fill-mode: forwards;
+}
+
+.avatar {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: contain;
+  background-color: white;
 }
 
 @keyframes fromTop {

@@ -1,11 +1,12 @@
 import React from 'react';
-import avatar from '../../assets/img_avatar.png';
+import profile from '../../assets/ciavarella.jpg';
 import styles from './Avatar.module.css';
 
 export function Avatar() {
   return (
     <div className={styles.avatarContainer}>
-      <img className={styles.avatar} src={avatar} alt="profilephoto" />
+      <img className={styles.avatar} src={profile} alt="profilephoto" />
+    <p style={{color: 'white'}}>Victor Ciavarella</p>
     </div>
   );
 }
