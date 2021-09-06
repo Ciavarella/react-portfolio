@@ -4,5 +4,5 @@
   display: flex;
   position: absolute;
   margin-bottom: 7rem;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }

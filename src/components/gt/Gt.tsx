@@ -6,7 +6,7 @@ const Gt = (): JSX.Element => {
     <div className={styles.gtContainer}>
       <img src={gt} className={styles.img} alt="Greater Than logo" />
       <h4>Greater Than</h4>
-      <p>Fullstack Developer</p>
+      <p>Fullstack developer mainly working with frontend using VueJS and Vuex.</p>
     </div>
   )
 }
