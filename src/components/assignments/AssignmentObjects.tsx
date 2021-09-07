@@ -1,5 +1,6 @@
 import gtLogo from '../../assets/gt.png';
 import mpmLogo from '../../assets/logoNeon.svg';
+import webshopLogo from '../../assets/webshop.png';
 import tretton37Logo from '../../assets/tretton37_green.png';
 
 export const Mpm = {
@@ -19,6 +20,13 @@ export const Gt = {
 export const Tretton37 = {
   img: tretton37Logo,
   title: 'Tretton37',
-  text: 'some text',
+  text: 'Frontend developer',
   link: 'https://tretton37.com/'
+}
+
+export const Webshop = {
+  img: webshopLogo,
+  title: 'Webshop',
+  text: 'Small webshop built using React, TypeScript and Context Api.',
+  link: 'https://angry-sammet-a301c6.netlify.app/'
 }
