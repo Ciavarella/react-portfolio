@@ -1,4 +1,4 @@
-.mpmContainer {
+.itemContainer {
   color: white;
   width: 20rem;
   display: flex;
@@ -11,11 +11,11 @@
   background-color: black;
 }
 
-.mpmContainer h4 {
+.itemContainer h4 {
   margin: 0.5rem;
 }
 
-.mpmContainer p {
+.itemContainer p {
   font-size: 21px;
 }
 

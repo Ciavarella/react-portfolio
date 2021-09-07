@@ -1,7 +1,7 @@
 import styles from './Projects.module.css';
 import Card from '../card/Card';
 import githubcat from '../../assets/GitHub-Mark-120px-plus.png';
-import tretton37pic from '../../assets/tretton37.png';
+import tretton37pic from '../../assets/tretton37_black.png';
 import linkedInPic from '../../assets/linkedinlogo.png';
 
 export interface CardItem {

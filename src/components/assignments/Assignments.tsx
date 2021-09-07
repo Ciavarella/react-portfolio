@@ -1,12 +1,14 @@
 import styles from './Assignments.module.css';
-import Gt from '../gt/Gt';
-import Mpm from '../mpm/Mpm';
+import Item from '../item/Item';
+import { Mpm, Tretton37, Gt } from './AssignmentObjects';
+
 
 const Assignments = (): JSX.Element => {
   return (
     <div className={styles.assignmentContainer}>
-      <Mpm />
-      <Gt />
+      <Item item={Mpm} />
+      <Item item={Tretton37} />
+      <Item item={Gt} />
     </div>
   )
 }
