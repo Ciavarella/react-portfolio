@@ -31,3 +31,13 @@
   display: none;
 }
 
+@media only screen and (max-width: 1200px) {
+  .cardContainer {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .cardContainer img {
+    max-width: 50%;
+  }
+}

@@ -1,7 +1,15 @@
 .assignmentContainer {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   margin-top: 5rem;
   margin-bottom: 5rem;
   justify-content: space-around;
+}
+
+@media only screen and (max-width: 1200px) {
+  .assignmentContainer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }

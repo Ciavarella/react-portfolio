@@ -21,7 +21,7 @@ const Banner = (): JSX.Element => {
           <Quotes text={text2} />
         </div>
         <div className={styles.bottom}>
-          <Quotes text={text3} />
+          <Quotes css='bottomDiv' text={text3} />
         </div>
       </div>
       <Projects />

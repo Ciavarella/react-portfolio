@@ -1,7 +1,7 @@
 .avatarContainer {
   top: -50rem;
   display: flex;
-  margin-top: 5rem;
+  margin-top: -5rem;
   position: relative;
   position: absolute;
   border-radius: 50%;
@@ -28,5 +28,11 @@
   }
   100% {
     top: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .avatarContainer {
+    margin-top: 0;
   }
 }

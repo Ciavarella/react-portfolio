@@ -1,4 +1,19 @@
 .quotesContainer {
   color: grey;
-  margin-top: 10rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .bottomDiv {
+    background-color: blue;
+    width: 90% !important;
+  }
+
+  .quotesContainer {
+    max-width: 20%;
+  }
+
+  .quotesContainer h3 {
+    font-size: 12px;
+  }
+
 }
