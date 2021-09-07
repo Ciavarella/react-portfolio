@@ -5,7 +5,6 @@ import Projects from '../projects/Projects';
 import styles from './Banner.module.css';
 import { text1, text2, text3 } from './texts';
 
-
 const Banner = (): JSX.Element => {
   return (
     <div className={styles.banner}>
